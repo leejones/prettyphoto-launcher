@@ -1,0 +1,19 @@
+h1. prettyPhoto Launcher
+
+requires "prettyPhoto":http://github.com/scaron/prettyphoto/tree/master
+
+"prettyPhoto":http://github.com/scaron/prettyphoto/tree/master is a great jQuery lightbox.  If you find that you need more than one link on the page to launch a gallery, prettyPhoto Launcher will do the trick.
+
+Example:
+<pre>
+<code>
+<ul>
+	<li><a href="fullsize/image01.jpg" rel="lightbox[gallery]"><img src="thumbnails/image01.jpg"/></a></li>
+	<li><a href="fullsize/image02.jpg" rel="lightbox[gallery]"><img src="thumbnails/image02.jpg"/></a></li>
+	<li><a href="fullsize/image03.jpg" rel="lightbox[gallery]"><img src="thumbnails/image03.jpg"/></a></li>
+</ul>
+
+<p><a href="fullsize/image01.jpg" rel="launchLightbox[gallery]">See the image gallery</a></p>
+<p><a href="fullsize/image03.jpg" rel="launchLightbox[gallery]">Check out image 3 in the image gallery</a></p>
+</code>
+</pre>
